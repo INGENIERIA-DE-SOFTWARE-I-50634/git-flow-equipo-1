@@ -12,6 +12,13 @@ app.post('/eco', (req, res) => {
   console.log(`===> endpoint /eco con ${echo}`);
 });
 
+app.get('/fecha', (req, res) => {
+  console.log('La fecha actual es');
+  var today = new Date();
+  res.send('La fecha actual es: '+ today);
+
+});
+
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log('simple API escuchando en el puerto: ', port);
