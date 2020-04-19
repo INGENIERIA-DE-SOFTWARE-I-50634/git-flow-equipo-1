@@ -1,5 +1,5 @@
 # Simple RESTful API
-Se utilizó express.js para crear un endpoint /echo que recibe un json con un par llave vvalore
+Se utilizó express.js para crear un endpoint /echo que recibe un json con un par llave valor
 
 Para inicializar en local realizar lo siguiente:
 
@@ -7,3 +7,5 @@ Para inicializar en local realizar lo siguiente:
 2. `npm install`
 3. `npm start`
 4. ir a la dirección http://localhost:8080
+
+esta ya está actualizada con el issue#4   
