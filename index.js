@@ -1,3 +1,6 @@
+
+var jsonTexto = '{"Llave":"001"}';
+var txt = JSON.parse(jsonTexto);
 const express = require('express');
 const app = express();
 
@@ -10,6 +13,7 @@ app.post('/eco', (req, res) => {
       mensaje: `escribiste: ${echo}`
   });
   console.log(`===> endpoint /eco con ${echo}`);
+  console.log(txt);
 });
 
 app.get('/fecha', (req, res) => {
